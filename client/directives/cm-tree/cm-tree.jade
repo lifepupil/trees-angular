@@ -1,0 +1,5 @@
+.cm-tree.col-xs-1
+  div height: {{height}}
+  div.health(ng-style='healthBar') {{health}}
+  img(ng-src='{{state.url}}', ng-click='grow()')
+  div {{state.name}}
